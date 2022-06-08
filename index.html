@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" 
+rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+</head>
+<body>
+    <div class="container bg-light border border-2 rounded shadow-lg p-3 mb-5 bg-body rounded w-50 p-3">
+        <div class="content">
+           <img class="img-fluid" src="/blue-background.jpg"
+            alt="header-image" class="opacity-75">
+                <h1 class="form-title m-2 text-primary">Register Here</h1>
+                <form>
+                   <input type="text" class="btn btn-outline-info m-2" placeholder="NAME">
+                   <input type="text" class="btn btn-outline-info m-2" placeholder="Last Name">
+                <div class="beside">
+                    <input type="number" class="btn btn-outline-info m-2" placeholder="PHONE NUMBER">
+                    <select class="btn btn-outline-info m-2">
+                        <option>GENDER</option>
+                        <option>MALE</option>
+                        <option>FEMALE</option>
+                        <option>Others</option>
+                    </select>
+                </div>
+                    <input class="btn btn-outline-secondary m-2 btn-outline-info" type="email" placeholder="EMAIL ADDRESS">
+                    <input class="btn btn-outline-secondary m-2 btn-outline-info" type="number" placeholder="CODE"><br>
+                    <input class="btn btn-outline-secondary m-2 btn-outline-info" type="checkbox" name="agree" id="agree">
+                    <label class="text-primary" for="agree">agree to terms and conditions</label><br>
+                    <button type="button" class="btn btn-primary m-2">Submit</button>
+                </form>
+            </div>
+     </div>
+    
+
+</body>
+</html>
